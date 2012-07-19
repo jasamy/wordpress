@@ -470,7 +470,8 @@ input#searchsubmit {
 
 /* Links */
 a {
-	color: #1982d1;
+/*	color: #1982d1; */
+	color: #ff4e41;
 	text-decoration: none;
 }
 a:focus,
@@ -540,11 +541,11 @@ a:hover {
 -------------------------------------------------------------- */
 
 #access {
-	background: #222; /* Show a solid color for older browsers */
-	background: -moz-linear-gradient(#252525, #0a0a0a);
-	background: -o-linear-gradient(#252525, #0a0a0a);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
-	background: -webkit-linear-gradient(#252525, #0a0a0a);
+	background: #c92626; /* Show a solid color for older browsers */
+/*	background: -moz-linear-gradient(#dd8377, #c92626);
+	background: -o-linear-gradient(#dd8377, #c92626);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dd8377), to(#c92626)); /* older webkit syntax */
+/*	background: -webkit-linear-gradient(#dd8377, #c92626);*/
 	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
@@ -553,6 +554,7 @@ a:hover {
 	float: left;
 	margin: 0 auto 6px;
 	width: 100%;
+	background:url(images/background-pattern.png);
 }
 #access ul {
 	font-size: 13px;
@@ -658,8 +660,8 @@ a:hover {
 	z-index: 1;
 }
 #branding .only-search #s {
-	background-color: #666;
-	border-color: #000;
+	background-color: #FFF;
+	border-color: #e8483c;
 	color: #222;
 }
 #branding .only-search #s,
@@ -732,7 +734,7 @@ a:hover {
 }
 .entry-title,
 .entry-title a {
-	color: #222;
+	color: #c92626;
 	text-decoration: none;
 }
 .entry-title a:hover,
