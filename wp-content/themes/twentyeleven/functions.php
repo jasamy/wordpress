@@ -118,7 +118,7 @@ function twentyeleven_setup() {
 		// The default header text color.
 		'default-text-color' => '000',
 		// The height and width of our custom header.
-		'width' => apply_filters( 'twentyeleven_header_image_width', 500 ),
+		'width' => apply_filters( 'twentyeleven_header_image_width', 1000 ),
 		'height' => apply_filters( 'twentyeleven_header_image_height', 288 ),
 		// Support flexible heights.
 		'flex-height' => true,
