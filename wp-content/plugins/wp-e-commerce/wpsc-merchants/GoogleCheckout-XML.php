@@ -92,7 +92,7 @@ function gateway_google($fromcheckout = false){
 			    array(
 				'totalprice' => $total,
 				'statusno' => 0,
-				'sessionind' => $_SESSION['wpsc_sessionid'],
+				'sessionid' => $_SESSION['wpsc_sessionid'],
 				'user_ID' => $user_ID,
 				'date' => time(),
 				'gateway' => 'google',
